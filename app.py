@@ -5,7 +5,7 @@ app = flask.Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def home():
-    return "<h1>Build de teste pelo github</h1>"
+    return "<h1>Build de teste pelo github (service stabilization)</h1>"
 
 
 if __name__ == '__main__':
